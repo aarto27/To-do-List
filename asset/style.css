@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: #04d1ff3d;
+}
+
+.todo {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 700px;
+    text-align: center;
+    margin:  100px auto;
+  }
+  
+  h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+
+  h1 img{
+    width: 40px;
+  }
+  
+  #todo {
+    width: 400px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+  }
+  
+  #todo:focus {
+    border-color: #4caf50;
+    outline: none;
+  }
+  
+  .addbtn {
+    width: 150px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 12px 22px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .addbtn:hover {
+    background-color: #45a049;
+  }
+   .removebtn{
+    background-color: #af4c4cb8;
+    color: white;
+    border: none;
+    padding: 9px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .removebtn:hover{
+    background-color: #d52f2fcb;
+    } 
+  
+  #list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #list li {
+    background-color: #f9f9f9;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    transition: all 0.3s ease;
+  }
+  
+  #list li:hover {
+    background-color: #e3f2e1;
+    transform: translateY(-5px);
+  }
+  
+  #list li:active {
+    transform: translateY(0);
+  }
+
+  .circle-img{
+    width: 20px;
+  }
+
+  .checked-img{
+    width: 20px;
+  }
